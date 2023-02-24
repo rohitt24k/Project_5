@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    min-height: 100vh;
+
+}
+header img{
+    height: 5vh;
+    margin-right: 3vw;
+    cursor: pointer;
+}
+header{
+    padding: 0 3vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+} 
+ul{
+    display: flex;
+    border-left: 1px solid white;
+    height: 5vh;
+    align-items: center;
+    padding-left: 3vw;
+
+}
+li{
+    margin-right: 3vw;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+li a:hover{
+    color: aqua;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    background-color:#B90EC5;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border-width: 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    background-color:#a60eb1;
+}
+header button{
+    font-size: 12px;
+}
+section{
+    width: 45vw;
+    height: 90vh;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section h1{
+    font-size: 9vh;
+    color: white;
+    text-align: center;
+}
+section p{
+    color: white;
+    font-weight: 600;
+}
+section button{
+    margin: 7vh;
+    font-size: 2.5vh;
+    
+}
